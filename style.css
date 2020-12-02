@@ -1,0 +1,191 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.header {
+    font-family: Reforma 2018;
+    font-style: normal;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    width: 100%;
+    height: 365px;
+    background-image: url("fractal1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-title {
+    width: 960px;
+    background: rgba(206, 102, 20, 0.63);
+    margin-left: 4%;
+    padding: 31px 24px;
+}
+.header h1 {
+    font-size: 56px;
+    line-height: 51px;
+}
+.header h2 {
+    font-size: 36px;
+    line-height: 51px;
+
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    width: content-box;
+    margin:50px 62px;
+}
+.content p {
+    width: 100%;
+    font-family: Noto Sans TC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #24303F;
+}
+.content h2 {
+    margin-top: 40px;
+    font-family: Noto Sans TC;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+    color: #24303F;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    width: 780px;
+    position: relative;
+    margin-left: 27px;
+}
+.info::before {
+    content: '';
+    position: absolute;
+    left: -27px;
+    height: 100%;
+    width: 12px;
+    background: #E0AC83;
+}
+.info h2{
+    margin-top: 0;
+    font-family: Noto Sans TC;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+
+    color: #24303F;
+}
+.info p{
+    font-family: Noto Sans TC;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #24303F;
+}
+.text {
+    flex-shrink: 0;
+    width: 900px;
+}
+.img1 {
+    height: 1025px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+.inline {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.inline h2 {
+    margin-top: 0;
+    line-height: 43px;
+}
+.inline .text p {
+    display: block;
+    width: 830px;
+}
+.inline .text {
+    margin-left: 70px;
+}
+.text ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 900px;
+    flex-shrink: 0;
+    margin-left: 20px;
+    font-family: Noto Sans TC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 30px;
+    color: #24303F;
+}
+.color-content {
+    margin: 0;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 46px;
+    padding-bottom: 46px;
+    display: flex;
+    flex-direction: column;
+    min-width: max-content;
+    background: rgba(206, 102, 20, 0.5);
+}
+.color-content h2 {
+    margin-top: 0;
+}
+.color-content .text:first-child {
+    width: 880px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.color-content .text:first-child:before {
+    content: '';
+    width: 143px;
+    height: 46px;
+    top: -46px;
+    position: absolute;
+    background: #C4C4C4;
+}
+.color-content .inline div{
+    flex-shrink: 0;
+    width: 600px;
+}
+.color-content .inline {
+    position: relative;
+    width: 100%;
+}
+.mr100 {
+    margin-right: 100px;
+    position: relative;
+}
+.mr100:after {
+    content: '';
+    width: 143px;
+    height: 46px;
+    position: absolute;
+    background: #C4C4C4
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 40px 50px;
+}
