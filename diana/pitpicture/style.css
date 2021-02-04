@@ -1,0 +1,140 @@
+/*стили блоков, некоторым прописан width - для корректного отображения в ряду*/
+.div1 {
+    background-color:#dd5c4a;
+    width: 423px;
+}
+.div2 {
+    background-color: #d7dde0;
+}
+.div3 {
+    background-color: #1e1e2c;
+    width: 146px;
+}
+.div4 {
+    background-color: #e7e7ea;
+    width: 423px;
+}
+.div5 {
+    background-color: #c8d0ce;
+}
+.div6 {
+    background-color: #c8d0ce;
+}
+.div7 {
+    background-color: #d2d7e2;
+    width: 81px;
+}
+.div8 {
+    background-color: #1a2d71;
+    width: 327px;
+}
+.div9 {
+    background-color: #e2e4df;
+    width: 354px;
+}
+.div10 {
+    background-color: #e8c13d;
+    width: 146px;
+}
+.div11 {
+    background-color: #d8dfe5;
+}
+.div12 {
+    background-color: #d6dce2;
+    width: 597px;
+}
+.div13 {
+    background-color: #28262f;
+    width: 81px;
+}
+/*таблица[cellspacing="15px"] - 15px отступ между блоками, тень во внутрь скрывает под собой отступ от границ*/
+table {
+    margin: auto;
+    background-color: #191925;
+    width: 828px;
+    box-shadow:inset 0px 0px 0px 15px #ececf4;
+}
+tr, td {
+    padding: 0;
+}
+/*размеры строк*/
+.tr1 {
+    height: 16px;
+}
+.tr2 {
+    height: 40px;
+}
+.tr3 {
+    height: 230px;
+}
+.tr4 {
+    height: 94px;
+}
+.tr5 {
+    height: 210px;
+}
+.tr6 {
+    height: 100px;
+}
+.tr7 {
+    height: 24px;
+}
+footer {
+    margin: 30px 0;
+    text-align: center;
+}
+/*pupup*/
+.button {
+    margin: 0 auto;
+    background-color: #ececf4;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px 20px;
+    font-size: 20px;
+    outline: none;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+.wrap {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+.wrap:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup {
+    margin: 100px auto;
+    padding: 20px;
+    background: #fff;
+    width: 40%;
+    min-height: 500px;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+.popup h2 {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.popup .close {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
